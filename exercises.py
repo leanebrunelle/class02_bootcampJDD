@@ -22,13 +22,21 @@
 # 3. Develop a program that multiplies two numbers provided by the user and displays the result.
 # (Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.)
 
-number_1 = int(input("Type a number: "))
-number_2 = int(input("Type another number: "))
-multiplication = number_1 * number_2
+# number_1 = int(input("Type a number: "))
+# number_2 = int(input("Type another number: "))
+# multiplication = number_1 * number_2
 
-print(f"The value of multiplication is {multiplication}.")
+# print(f"The value of multiplication is {multiplication}.")
 
-# 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+# 4. Write a program that asks for two integers and prints the integer division of the first by the second.
+# (Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.)
+
+divisor_1 = int(input("Type a number: "))
+dividend_1 = int(input("Typer another number: "))
+division_1 = divisor_1 // dividend_1
+
+print(f"The integer division is {division_1}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante (`float`)
