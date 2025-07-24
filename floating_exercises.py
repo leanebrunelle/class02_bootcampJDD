@@ -1,3 +1,5 @@
+import math
+
 # #### Floating Point Numbers (`float`)
 # #### Números de Ponto Flutuante (`float`)
 
@@ -38,9 +40,16 @@
 # 9. make a program that converts the temperature from Celsius to Fahrenheit.
 # Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
-celsius_temp = float(input("Type the temperture (°C): "))
-fahrenheit_temp = (celsius_temp * 9/5) +32
+# celsius_temp = float(input("Type the temperture (°C): "))
+# fahrenheit_temp = (celsius_temp * 9/5) +32
 
-print(f"{celsius_temp}°C is equal to {fahrenheit_temp}°F \n")
+# print(f"{celsius_temp}°C is equal to {fahrenheit_temp}°F \n")
 
-# 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+# 10. Write a program that calculates the area of a circle, taking the radius as input.
+# Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+radius = float(input("Type the value of radius: "))
+radius_square = radius ** 2
+area = math.pi * radius_square
+
+print(f"The area of circle is {area:.3f}")
