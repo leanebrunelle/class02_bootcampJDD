@@ -26,19 +26,21 @@
 # 8. Develop a program that calculates the
 # Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-num_05_str = input("Type a floating point number: ")
-num_05 = float(num_05_str)
-num_06_str = input("Type another number to get the power of first number: ")
-num_06 = float(num_06_str)
-power_num = num_05 ** num_06
+# num_05_str = input("Type a floating point number: ")
+# num_05 = float(num_05_str)
+# num_06_str = input("Type another number to get the power of first number: ")
+# num_06 = float(num_06_str)
+# power_num = num_05 ** num_06
 
-print(f"{num_05} to the power to {num_06} is {power_num}")
+# print(f"{num_05} to the power to {num_06} is {power_num}")
 
 
 # 9. make a program that converts the temperature from Celsius to Fahrenheit.
 # Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
+celsius_temp = float(input("Type the temperture (°C): "))
+fahrenheit_temp = (celsius_temp * 9/5) +32
 
-
+print(f"{celsius_temp}°C is equal to {fahrenheit_temp}°F \n")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
