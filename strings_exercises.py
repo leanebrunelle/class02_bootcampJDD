@@ -19,10 +19,23 @@
 # 13. Develop a program that asks to user enter a sentence and then print the sentence without leading and trailing spaces
 # Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
-sentence = input("Enter any sentence: ")
-strip_sentence = sentence.strip()
+# sentence = input("Enter any sentence: ")
+# strip_sentence = sentence.strip()
 
-print(f"{strip_sentence} \n")
+# print(f"{strip_sentence} \n")
 
-# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# 14. Write a program that asks to user to enter a date in the "mm/dd/aaaa" format and then print month, day and year separately
+# Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+# date = input("Enter your birthday (mm/dd/aaaa): ")
+# split_date = date.split("/")
+
+# print(f" Month {split_date[0, 1]} \n day {split_date[2,3]} \n year {split_date[4: ]} \n")
+
+# 15. Write a program that concatenates two user-supplied strings
+# # Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# string_supp = input("Enter two words: ")
+# concat_word = string_supp.join(-)
+
+# print(concat_word)
